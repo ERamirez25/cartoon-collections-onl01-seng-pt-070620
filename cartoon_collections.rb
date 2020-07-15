@@ -28,6 +28,6 @@ end
 def find_the_cheese(array)
   array.find do |cheese|
   cheese == "cheese" || cheese == "gouda" || cheese == "camebert"
-   array.find << array.include
+   
 end
 end 
